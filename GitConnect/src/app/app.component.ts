@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {ApiService} from './api.service';
-import { Weather } from './openweather/weather';
+import { Weather } from '../domain/weather';
 
 @Component({
   selector: 'app-root',
